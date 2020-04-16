@@ -1,10 +1,9 @@
-layout: stacked
+layout: sidebar
 style: dark
 
 plugins:
   - jekyll-octicons
   - jekyll-github-metadata
-  - jemoji
 
 permalink: /:year/:month/:day/:title/
 
@@ -15,18 +14,6 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-
-projects:
-  sort_by: stars
-  # sort_by options:
-  #   - pushed
-  #   - stars
-  limit: 9
-  exclude:
-    archived: false
-    forks: true
-    projects:
-    # - repo-name
 
 social_media:
   # behance: your_username
@@ -46,11 +33,70 @@ social_media:
   # website: http://your_website_url
   # youtube: your_username
 
-topics:
+projects:
+  sort_by: pushed
+  # sort_by options:
+  #   - pushed
+  #   - stars
+  limit: 9
+  exclude:
+    archived: false
+    forks: true
+    projects:
+    # - repo-name
+
+skills:
   - name: Swift
     web_url: https://swift.org
     image_url: https://swift.org/apple-touch-icon-180x180.png
 
-  - name: Apple
-    web_url: https://www.apple.com
-    image_url: http://cdn.wccftech.com/wp-content/uploads/2013/09/Apple-logo1.jpg
+  - name: Objective-C
+    web_url: https://en.wikipedia.org/wiki/Objective-C
+    image_url: https://seeklogo.com/images/O/objective-c-logo-81746870EF-seeklogo.com.png
+
+  - name: Xcode
+    web_url: https://developer.apple.com/xcode
+    image_url: https://uploads.toptal.io/blog/category/logo/67/xcode.png
+
+  - name: CircleCI
+    web_url: https://circleci.com
+    image_url: https://s3-us-west-2.amazonaws.com/assertible/integrations/circleci-logo.png
+
+  - name: Jenkins
+    web_url: https://jenkins.io
+    image_url: https://wiki.jenkins.io/download/attachments/2916393/logo.png
+
+  - name: Fastlane
+    web_url: https://fastlane.tools
+    image_url: https://seeklogo.com/images/F/fastlane-logo-6CA0B0B428-seeklogo.com.png
+
+favBooks:
+  - name: Clean Code by Robert Martin
+    web_url: https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882
+    image_url: http://technical.ly/delaware/wp-content/uploads/sites/6/2016/03/51oXyW8WQwL._SX387_BO1204203200_.jpg
+  - name: Snow Crash by Neal Stephenson
+    web_url: https://www.amazon.ca/Snow-Crash/dp/B07231VFTG/ref=sr_1_4?keywords=snowcrash+books+science+fiction&qid=1587047557&sr=8-4
+    image_url: https://m.media-amazon.com/images/I/51F-1GJA2ML.jpg
+  - name: The Rider by Tim Krabbé
+    web_url: https://www.amazon.ca/Rider-Tim-Krabbé-ebook/dp/B07JWCBFHN/ref=sr_1_1?keywords=the+rider+cycling+book&qid=1587047617&s=books&sr=1-1-catcorr
+    image_url: https://m.media-amazon.com/images/I/41fVnix8J0L.jpg
+
+books:
+  - name: Peopleware by Tom Demaro and Tim Lister
+    web_url: https://www.amazon.com/Peopleware-Productive-Projects-Teams-3rd/dp/0321934113
+    image_url: https://strategicppm.files.wordpress.com/2010/09/peopleware.jpg
+  - name: The Art of Intrusion by Keving Mitnick
+    web_url: https://www.amazon.ca/Art-Intrusion-Exploits-Intruders-Deceivers/dp/0471782661/ref=sr_1_1?keywords=art+of+intrusion+security&qid=1587046194&sr=8-1
+    image_url: https://images-na.ssl-images-amazon.com/images/I/51c6xEfVylL._SX331_BO1,204,203,200_.jpg
+  - name: Hackers by Steven Levy
+    web_url: https://en.wikipedia.org/wiki/Hackers:_Heroes_of_the_Computer_Revolution
+    image_url: https://m.media-amazon.com/images/I/61S2SLsKLbL.jpg
+  - name: iWoz by Steve Wozniak and Gina Smith
+    web_url: https://www.amazon.ca/iWoz-Invented-Personal-Computer-Along/dp/B071S4L2QX/ref=sr_1_1?keywords=iwoz&qid=1587047110&s=books&sr=1-1
+    image_url: https://m.media-amazon.com/images/I/41UYyEL5+YL.jpg
+  - name: The Art of Invisibility by Kevin Mitnick
+    web_url: https://www.amazon.ca/Art-Invisibility-Worlds-Teaches-Brother/dp/B071HL6MD9/ref=sr_1_1?keywords=The+Art+of+Invisibility+by+Kevin+Mitnick&qid=1587047216&s=books&sr=1-1
+    image_url: https://m.media-amazon.com/images/I/51vlXcMKvWL.jpg
+  - name: Commodork by Rob O'Hara
+    web_url: https://www.amazon.ca/Commodork-Sordid-Tales-BBS-Junkie-ebook/dp/B001U3YI1I/ref=sr_1_1?keywords=commodork&qid=1587047324&sr=8-1
+    image_url: https://m.media-amazon.com/images/I/415gLmZjiKL.jpg
