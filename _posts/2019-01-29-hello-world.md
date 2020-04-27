@@ -1,75 +1,67 @@
 ---
 title: "Welcome to Jekyll!"
-published: false
+published: true
 ---
 
 **Hello world**, this is my first Jekyll blog post.
 
-I hope you like it!
+I hope you like it! It's pointing out how highlighting look for various languages I work in.
 
 # Highlighter
-## Ruby
+
+## Swift
+```swift
+print("Hello World")
+```
+
+## Objective-C
+```swift
+NSLog(@"Hello World")
+```
+
+## Fastlane
 ```ruby
-def show
-  puts "Outputting a very lo-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-ong lo-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-ong line"
-  @widget = Widget(params[:id])
-  respond_to do |format|
-    format.html # show.html.erb
-    format.json { render json: @widget }
-  end
+lane :ci_build do
+  sh "rm -rf build"
+
+  xcodebuild(
+    clean: true,
+    archive: true,
+    archive_path: './build/BanditTheCat.xcarchive',
+    workspace: ENV['WORKSPACE'],
+    scheme: ENV['SCHEME'],
+    configuration: 'Release',
+    sdk: 'iphoneos',
+    )
 end
 ```
 
-## Php
-```php
-<?php
-  print("Hello {$world}");
-?>
-```
-
-## Java
-```java
-public class java {
-    public static void main(String[] args) {
-        System.out.println("Hello World");
-    }
-}
-```
-
-## HTML
-```html
-<html>
-  <head><title>Title!</title></head>
-  <body>
-    <p id="foo">Hello, World!</p>
-    <script type="text/javascript">var a = 1;</script>
-    <style type="text/css">#foo { font-weight: bold; }</style>
-  </body>
-</html>
-```
-
 ## Console
-```console
-# prints "hello, world" to the screen
-~# echo Hello, World
-Hello, World
 
-# don't run this
-~# rm -rf --no-preserve-root /
+```
+# "Get the directory that this script file exists in."
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+print_section_title "Changing to project directory ${WORKSPACE}/BuildDir/"
+cd ${WORKSPACE}/BuildDir/
+
+# Download tools to be used while building
+download_tools
+
+# Build the project
+bundle exec fastlane build
 ```
 
-## Css
-```css
-body {
-    font-size: 12pt;
-    background: #fff url(temp.png) top left no-repeat;
-}
-```
 
-## Yaml
+## Circle CI
 ```yaml
----
-one: Mark McGwire
-two: Sammy Sosa
-three: Ken Griffey
+  version: 2
+  jobs:
+    build:
+      docker:
+        - image: circleci/<language>:<version TAG>
+      steps:
+        - checkout
+        - run: <command>
+...
 ```
