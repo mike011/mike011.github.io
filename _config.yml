@@ -38,65 +38,80 @@ projects:
   # sort_by options:
   #   - pushed
   #   - stars
-  limit: 9
+  limit: 20
   exclude:
-    archived: false
-    forks: true
+    archived: true
+    forks: false
     projects:
-    # - repo-name
+       FlappyBirdClone, BullsEye, HitList, NinjaAttack, TapWar, branching2019, RubyInSwiftForIOS, TodoistTaskAdder, DoTheUITestsWork, FirstResponder,
 
 skills:
   - name: Swift
     web_url: https://swift.org
     image_url: https://swift.org/apple-touch-icon-180x180.png
+    description: "Swift 3, 4, and 5 have been a wonderful development experience. Cleaner code. Easier to read. Easier to write. I love that the language is community driven"
 
   - name: Objective-C
     web_url: https://en.wikipedia.org/wiki/Objective-C
     image_url: https://seeklogo.com/images/O/objective-c-logo-81746870EF-seeklogo.com.png
+    description: "You learn to appreciate Objective-C the more you write in it"
 
   - name: Xcode
     web_url: https://developer.apple.com/xcode
     image_url: https://uploads.toptal.io/blog/category/logo/67/xcode.png
+    description: "Not my favorite IDE of all time, but definitely solid and always improving"
 
   - name: CircleCI
     web_url: https://circleci.com
     image_url: https://s3-us-west-2.amazonaws.com/assertible/integrations/circleci-logo.png
+    description: "Fast and simple way to get your project building on pull requests"
 
   - name: Jenkins
     web_url: https://jenkins.io
     image_url: https://wiki.jenkins.io/download/attachments/2916393/logo.png
+    description: "Can be a pain as it's super configurable, but that's also it's strong suite"
 
   - name: Fastlane
     web_url: https://fastlane.tools
     image_url: https://seeklogo.com/images/F/fastlane-logo-6CA0B0B428-seeklogo.com.png
+    description: "Great tool to make it easy to various build tasks for iOS"
 
 favBooks:
-  - name: Clean Code by Robert Martin
-    web_url: https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882
-    image_url: http://technical.ly/delaware/wp-content/uploads/sites/6/2016/03/51oXyW8WQwL._SX387_BO1204203200_.jpg
+  - name: The Pragmatic Programmer by Andrew Hunt and David Thomas
+    web_url: https://www.amazon.ca/Pragmatic-Programmer-Journeyman-Master-ebook/dp/B003GCTQAE/ref=sr_1_2?keywords=pragmatic+programmer&qid=1587152972&sr=8-2
+    image_url: https://m.media-amazon.com/images/I/41uPjEenkFL._SX260_.jpg
+    description: "I've read this book numerous times and learned something new for it each time"
   - name: Snow Crash by Neal Stephenson
     web_url: https://www.amazon.ca/Snow-Crash/dp/B07231VFTG/ref=sr_1_4?keywords=snowcrash+books+science+fiction&qid=1587047557&sr=8-4
     image_url: https://m.media-amazon.com/images/I/51F-1GJA2ML.jpg
+    description: "I really enjoy the story"
   - name: The Rider by Tim Krabbé
     web_url: https://www.amazon.ca/Rider-Tim-Krabbé-ebook/dp/B07JWCBFHN/ref=sr_1_1?keywords=the+rider+cycling+book&qid=1587047617&s=books&sr=1-1-catcorr
     image_url: https://m.media-amazon.com/images/I/41fVnix8J0L.jpg
+    description: "Great book is a great read about how it feels to race a bicycle"
 
 books:
   - name: Peopleware by Tom Demaro and Tim Lister
     web_url: https://www.amazon.com/Peopleware-Productive-Projects-Teams-3rd/dp/0321934113
     image_url: https://strategicppm.files.wordpress.com/2010/09/peopleware.jpg
+    description: "A former colleague recommended this book and I really enjoyed it. Furniture Police! :P"
   - name: The Art of Intrusion by Keving Mitnick
     web_url: https://www.amazon.ca/Art-Intrusion-Exploits-Intruders-Deceivers/dp/0471782661/ref=sr_1_1?keywords=art+of+intrusion+security&qid=1587046194&sr=8-1
     image_url: https://images-na.ssl-images-amazon.com/images/I/51c6xEfVylL._SX331_BO1,204,203,200_.jpg
+    description: "Some great stories"
   - name: Hackers by Steven Levy
     web_url: https://en.wikipedia.org/wiki/Hackers:_Heroes_of_the_Computer_Revolution
     image_url: https://m.media-amazon.com/images/I/61S2SLsKLbL.jpg
+    description: "Great book about the history of computing."
   - name: iWoz by Steve Wozniak and Gina Smith
     web_url: https://www.amazon.ca/iWoz-Invented-Personal-Computer-Along/dp/B071S4L2QX/ref=sr_1_1?keywords=iwoz&qid=1587047110&s=books&sr=1-1
     image_url: https://m.media-amazon.com/images/I/41UYyEL5+YL.jpg
+    description: "I've read alot of books about Steve Jobs. This was a great read from the other Steve."
   - name: The Art of Invisibility by Kevin Mitnick
     web_url: https://www.amazon.ca/Art-Invisibility-Worlds-Teaches-Brother/dp/B071HL6MD9/ref=sr_1_1?keywords=The+Art+of+Invisibility+by+Kevin+Mitnick&qid=1587047216&s=books&sr=1-1
     image_url: https://m.media-amazon.com/images/I/51vlXcMKvWL.jpg
+    description: "Being anonymous online is alot harder then you would think."
   - name: Commodork by Rob O'Hara
     web_url: https://www.amazon.ca/Commodork-Sordid-Tales-BBS-Junkie-ebook/dp/B001U3YI1I/ref=sr_1_1?keywords=commodork&qid=1587047324&sr=8-1
     image_url: https://m.media-amazon.com/images/I/415gLmZjiKL.jpg
+    description: "I missed the BBS generation and this was a great telling of someone who lived through it."
