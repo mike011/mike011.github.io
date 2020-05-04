@@ -37,7 +37,6 @@ end
 ```
 
 ## Console
-
 ```
 # "Get the directory that this script file exists in."
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
@@ -51,8 +50,6 @@ download_tools
 # Build the project
 bundle exec fastlane build
 ```
-
-
 ## Circle CI
 ```yaml
   version: 2
