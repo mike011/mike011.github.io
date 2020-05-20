@@ -1,0 +1,8 @@
+---
+title: "What is Gerkin?"
+published: true
+---
+
+For BDD [Gherkin](https://cucumber.io/docs/gherkin/) is a set of grammar rules used when you are writing a feature file while doing Behavior Driven Development. And it is meant to be wrote at a high level that non-programmers and non-testers could easily understand.The grammar rules are used in a layout that uses keywords to be interpreted by [Cucumber](https://cucumber.io/):**The most frequently used keywords are:*** *Feature*: A high level overview of what the following scenarios will do* *Scenario*: Analogous to the title of a test case* *Given*: The requirements or setup part of the test* *When*: An action occurs* *Then*: You are expecting the following to happen* *And*: Can be used with Given, When, and Then to add additional requirements to each step**Other keywords are:*** *Background*: Give more context for the story* *But*: Make sure something does not happen* *Scenario Outline*: When you want to run the scenario multiple with different input values* *Ask*: When you want to do semi-automation and involve the tester mid way through* Given, When, Then, and And, all boil down to the same thing. The keywords are only in the document to make it more readable.**Example, when testing a simple calculator application*** Given: The application has started* When: I press the 3 button* And: I press the + button* And: I press the 2 button* And: I press the = button* Then: I will be see 5 in the output**Summary**
+
+This was a quick article explaining that Gherkin is a simple set of grammer rules used with Cucumber.
