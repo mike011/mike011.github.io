@@ -4,8 +4,6 @@ published: true
 originally posted: https://www.utest.com/articles/automation-vs-manual-testing-is-the-wrong-conversation-to-be-having
 ---
 
-#Automation vs Manual Testing is the wrong conversation to be having
-
 Most people I have worked with think of these as two different ways of testing, but I don't think they should be seen that way. Automation is not able to fully replicate what a human being can do and a human can't 100% replicate what a computer does. So instead of thinking of these two things as enemies, why can't they help each other out?
 
 Let's go through an example for something as simple as clicking a button:

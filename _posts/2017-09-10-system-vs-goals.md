@@ -4,8 +4,6 @@ Orignally posted here: https://www.utest.com/articles/systems-vs-goals
 published: true
 ---
 
-#Systems versus Goals
-
 I read the excellent book by Scott Adams called "How to Fail at Almost Everything and Still Win Big". In this book he goes over his approach to how he is so productive. What he does is that he uses a set of systems. What are systems you may ask? Well, Scott defines a system as something you do on a regular basis with no specific outcome in mind. Contrasting that to goals that are something you aim for that you either do or do not achieve. Examples I find always help, so here we go.
 
 - Goal: I will loose twenty pounds
