@@ -1,6 +1,6 @@
 ---
 title: "When rand isn't good enough"
-published: false
+published: true
 ---
 
 When I was at my previous employer I had the opportunity to implement the usage of a new library into the ap. This meant adding some new calls into your app and adding the library via Cocoapods.

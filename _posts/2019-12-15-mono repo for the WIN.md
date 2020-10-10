@@ -1,6 +1,6 @@
 ---
 title: "Mono Repo for the Win"
-published: false
+published: true
 ---
 
 This is a quick article about how having one repository contain multiple projects for our team was a win.
@@ -25,7 +25,7 @@ We were a super small team of 4 devs so we rolled all the code into one a repo. 
 
 # Conclusion
 
-One repo for the win. This was great. But why? Really the seperate project could've worked but because the project code was not cleanly seperated from the other projects it didn't work. If we would've used VIPER or RIBs it would've made this possible.
+One repo for the win. This was great. But why? Really the separate project could've worked but because the project code was not cleanly separated from the other projects it didn't work. If we would've used VIPER or RIBs it would've made this possible.
 
 # Fast-Forward
 

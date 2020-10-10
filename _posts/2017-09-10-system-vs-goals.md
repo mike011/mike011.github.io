@@ -13,9 +13,9 @@ I read the excellent book by Scott Adams called "How to Fail at Almost Everythin
 - Goal: I want to earn a million dollars
 - System: I will focus on creating opportunities to help me financially
 
-##Why would you pick a system over goal?
+## Why would you pick a system over goal?
 One of the biggest problems with goal setting is that if don't achieve the goal you feel like a failure and if you achieve your goal, what's next? With a system every time you apply it you feel good because in a way your goal was to do the system.
 Systems are simpler. You don't need to spend hours coming up with a daily/weekly/monthly/quarterly/year plan. You can work on your systems and that should be sufficient.
 
-##Update
+## Update
 I've been trying this out for about the last month. For example before I would end each day with making a list of goals for me to accomplish the next day and then work towards those goals the next day. The goals would be ideally tied into some larger goals. Now, instead I have a bunch of systems that I work on for certain periods of time everyday. These systems are a more generalized statements of what the higher level goals were. Only time will tell if this approach is better.

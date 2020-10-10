@@ -1,15 +1,15 @@
 ---
 title: "Alamofire Retry Policy"
-published: false
+published: true
 ---
 
 [Alamofire](https://github.com/Alamofire/Alamofire) has an awesome feature called [RetryPolicy](https://alamofire.github.io/Alamofire/Classes/RetryPolicy.html). This is one of the reasons why you'd pick Alamofire over using a plan old URLSession. RetryPolicy intercepts requests so that it can provide the ability to automatically retry when a request fails.
 
 RetryPolicy uses a fancy thing called exponential backoff. Exponential backoff is when every subsequent attempt will be spaced out a little farther then the previous attempt. This is great for when a connection goes down and stops you from hammering away at the server. This would effectively be doing a Denial-of-Service(DoS) attack by preventing the server from coming back up as it would be flooded with the pile of requests created.
 
-In Alamofire exponetial backoff has two variables that can be configured. They are ```exponentialBackoffBase``` and ```exponentialBackoffScale``` and are used in the formula (exponentialBackoffBase) <sup>(retryCount * exponentialBackoffScale)</sup>. By default the base is 2 and the backoff is 0.5. And the result is in seconds.
+In Alamofire exponential backoff has two variables that can be configured. They are ```exponentialBackoffBase``` and ```exponentialBackoffScale``` and are used in the formula (exponentialBackoffBase) <sup>(retryCount * exponentialBackoffScale)</sup>. By default the base is 2 and the backoff is 0.5. And the result is in seconds.
 
-![](retryPolicy.png)
+![](/assets/RetryPolicy/RetryPolicy.png)
 
 As you can see from the graph the amount of time waiting for the retry quickly increases. At 15 retries it's going to wait for 30 minutes. Better remember to keep those objects alive.
 

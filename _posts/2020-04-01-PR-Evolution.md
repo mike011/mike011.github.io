@@ -3,11 +3,11 @@ title: "GitHub Pull Request Evolution"
 published: true
 ---
 
-While I was at previous employeer how we used GitHub Pull Requests(PR) drastically changed from a non-important step to becoming a critical, helpful, and insightful one. This is a recap of how that happened.
+While I was at previous employer how we used GitHub Pull Requests(PR) drastically changed from a non-important step to becoming a critical, helpful, and insightful one. This is a recap of how that happened.
 
 ## The Beginning
 
-When I started on the iOS team in December of 2017 PRs had no required build checks. The only build check was a Jenkins build of the project that passed intermittently. And failed alot and no one knew why mostly because no one really knew how it worked. When working with Jenkins it felt like the following:
+When I started on the iOS team in December of 2017 PRs had no required build checks. The only build check was a Jenkins build of the project that passed intermittently. And failed a lot and no one knew why mostly because no one really knew how it worked. When working with Jenkins it felt like the following:
 
 ![](https://media.giphy.com/media/WqDRe5JBggRva/giphy.gif)
 

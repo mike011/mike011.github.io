@@ -3,7 +3,7 @@ title: "The importance of a solid CI pipeline"
 published: true
 ---
 
-I've worked at multiple software companies and have seen how they treat there CI pipepline. It's been interesting to see how it can really help or hinder in developing code. This blog is a summary of those experiences.
+I've worked at multiple software companies and have seen how they treat there CI pipeline. It's been interesting to see how it can really help or hinder in developing code. This blog is a summary of those experiences.
 
 # What happens when people don't care?
 
@@ -17,7 +17,7 @@ At the end of the day it's chaos and you might as well not be running any CI as 
 
 When working on teams that were having problems these are some of the strategies we as a team took to make things better.
 
-- Make the build job as simple as possible. Sometimes people will overcomplicate a build script or make it do a lot of things. What's better do a lot of things and fail alot or do a few things and pass a large majority of the time? I would lean towards the last as it provides values to everyone when the build passes consistently
+- Make the build job as simple as possible. Sometimes people will overcomplicate a build script or make it do a lot of things. What's better do a lot of things and fail a lot or do a few things and pass a large majority of the time? I would lean towards the last as it provides values to everyone when the build passes consistently
 - Make it robust and when it fails as obvious as possible. You are never going to get a build that will pass 100% of the time. CI's just aren't there as there are too many reasons it can fail. So the best strategy is to provide informative logging at critical points so when the build fails the logs will provide helpful information making solving the issue easier.
 - Make sure the build passes for a set period of time. This is similar to what you want for tests. You want it to pass not just once, but a large majority of the time. Run the build job over and over again. Make it as simple as possible.
 - Then with team buy in make that job mandatory.
