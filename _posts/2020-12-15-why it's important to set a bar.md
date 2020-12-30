@@ -1,6 +1,6 @@
 ---
 title: "Why it's important to set a bar"
-published: false
+published: true
 ---
 
 Recently in a job interview a question came up to the usefulness of running warning tools that were completely disabled from producing any warnings. This might seem like a waste of time, but I'm a huge fan of doing this. Why? Well that's what this article is all about.
